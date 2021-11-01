@@ -51,6 +51,7 @@
             </ul>
         </nav>
     </header>
+
     <main class="main">
         <section class="about">
             <h2>About us</h2>
@@ -90,7 +91,6 @@
                 <a href=""><img src="img/arrow-enter.png" alt="стрелочка кнопка"><span>Подробнее</span></a>
                 <img src="" alt="Красят человека">
             </div>
-
             <div>
                 <h3 class="subtitle">Эстетика красоты</h3>
                 <p class="text"><span>78</span>Современых центар в странах СНГ</p>
@@ -111,7 +111,6 @@
                     <li class="news-list__item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ipsum delectus similique unde excepturi veritatis tempora corporis ut tenetur aspernatur.</li>
                 </ul>
             </div>
-
             <div class="news__right-section">
                 <p>Почему рекомендуется посещать профессионального косметолога. Мнение специалистов центра</p> <!--оформить этот параграф-->
                 <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eligendi incidunt facere, consequuntur dolorum consequatur eos at totam nulla! Delectus quod maiores, deleniti velit id, odio necessitatibus iste sed quis dolorum natus, consectetur error magnam omnis hic nisi ratione officiis quidem aliquid perspiciatis esse accusantium? Unde quisquam consequuntur illum tempore eum ab, odit nihil? Molestiae debitis qui excepturi, similique nisi doloremque nostrum recusandae expedita praesentium molestias culpa! Perferendis natus assumenda perspiciatis repellendus magni officia quam! Aspernatur ipsa tempore amet ipsam?</p>
@@ -119,8 +118,7 @@
         </section>
 
         <section class="current-offers">
-            <h2>Актуальные спецпредложения</h2>
-            
+            <h2>Актуальные спецпредложения</h2>            
             <ul class="offers-list">
                 <li class="offers-list__item">
                     <div>
@@ -132,8 +130,20 @@
                                 <span>Лазерное и фотоомоложение</span>
                                 <img src="img/arrow-enter.png" alt="стрелочка">
                             </p>
+                        </div>        
+                    </div>
+                </li>
+                <li class="offers-list__item">
+                    <div>
+                        <div>  <!--Фотом блока будет картинка-->
+                            <p><span>Косметология</span></p>
                         </div>
-        
+                        <div>
+                            <p>
+                                <span>Лазерное и фотоомоложение</span>
+                                <img src="img/arrow-enter.png" alt="стрелочка">
+                            </p>
+                        </div>        
                     </div>
                 </li>
                 <li class="offers-list__item">
@@ -160,22 +170,7 @@
                                 <span>Лазерное и фотоомоложение</span>
                                 <img src="img/arrow-enter.png" alt="стрелочка">
                             </p>
-                        </div>
-        
-                    </div>
-                </li>
-                <li class="offers-list__item">
-                    <div>
-                        <div>  <!--Фотом блока будет картинка-->
-                            <p><span>Косметология</span></p>
-                        </div>
-                        <div>
-                            <p>
-                                <span>Лазерное и фотоомоложение</span>
-                                <img src="img/arrow-enter.png" alt="стрелочка">
-                            </p>
-                        </div>
-        
+                        </div>        
                     </div>
                 </li>
             </ul>
@@ -184,8 +179,7 @@
     </main>
     <footer class="footer">
         <section class="footer-up">
-            <h2>Навигация по услугам, схемы проезда</h2>
-            
+            <h2>Навигация по услугам, схемы проезда</h2>            
             <ul>
                 <li>
                     <div>
@@ -263,12 +257,12 @@
                 <li>
                     <p>Адрес</p>
                     <p><span>Невский пж. 140, пом. 10</span></p>
-                    <button class="button">Как проехать?</button>
+                    <a class="button" href="#">Как проехать?</a> <!--Объявлен как ссылка, потому что открывает др. страницу, вешаю класс button т.к выглядит как кнопка-->
                 </li>
                 <li>
                     <p>Адрес</p>
                     <p><span>Большой пр. 12</span></p>
-                    <button class="button">Как проехать?</button>
+                    <a class="button" href="#">Как проехать?</a> <!--Объявлен как ссылка, потому что открывает др. страницу, вешаю класс button т.к выглядит как кнопка-->
                 </li>
             </ul>
         </section>
@@ -286,24 +280,16 @@
                     <button class="button"><span><img src="" alt="Изображение глаз"></span> Версия для слабовидящих</button>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="" alt="Вконтакте">
-                    </a>
+                    <a href="#"><img src="" alt="Вконтакте"></a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="" alt="Youtube">
-                    </a>
+                    <a href="#"><img src="" alt="Youtube"></a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="" alt="Facebook">
-                    </a>
+                    <a href="#"><img src="" alt="Facebook"></a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="" alt="Instagramm">
-                    </a>
+                    <a href="#"><img src="" alt="Instagramm"></a>
                 </li>
             </ul>
         </section>
