@@ -17,3 +17,9 @@
   font-family: "Montserrat";
   font-weight: 500;
 }
+
+/*Variables*/
+:root {
+  --turquoise: #00868a;
+  --lite-turquoise: #4fbfa5;
+}
