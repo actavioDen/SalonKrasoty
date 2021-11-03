@@ -39,6 +39,17 @@
   line-height: 21.19px;
 }
 
+.current-offers__title{
+  font-size: 48px;
+  line-height: 72px;
+  color:var(--turquoise);
+}
+
+.offers-list__title{
+  font-size: 18px;
+  line-height: 21.19px;
+}
+
 .advantages__desc-text {
   font-size: 30px;
   line-height: 45px;
@@ -49,8 +60,33 @@
   display: none;
 }
 
+.advantages__number{
+  font-size: 48px;
+  line-height: 72px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.advantages__number-bright{
+  font-size: 96px;
+  line-height: 144px;
+  color: var(--turquoise);
+}
+
+.subtitle__text{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.subtitle__text-bright{
+  font-size: 28px;
+  line-height: 42px;
+  color: #000;
+}
+
 /*Стилизация списков:*/
 .main-nav-list {
+  list-style: none;
+}
+.social-list{
   list-style: none;
 }
 .main-navigation {
@@ -77,11 +113,21 @@
   list-style: none;
 }
 
+.title-footer-nav-list{
+  font-size: 21px;
+  line-height: 31,5px;
+  font-weight: 700;
+}
+
 .footer-inner-list {
   list-style: none;
 }
 
 .footer-nav-list {
+  list-style: none;
+}
+
+.contacts-list{
   list-style: none;
 }
 /*Задать изображениям серый задний фон*/
