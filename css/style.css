@@ -6,6 +6,7 @@
   font-weight: 500;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-Bold.ttf");
@@ -13,15 +14,74 @@
   font-style: normal;
 }
 
+/*Variables*/
+:root {
+  --turquoise: #00868a;
+  --lite-turquoise: #4fbfa5;
+}
+
 .page-body {
+  width: 1920px;
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
 }
 
-/*Variables*/
-:root {
-  --turquoise: #00868a;
-  --lite-turquoise: #4fbfa5;
+.about-slider__title {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 700;
 }
+
+.subtitle {
+  font-size: 18px;
+  line-height: 21.19px;
+}
+
+.advantages__desc-text {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.section-name {
+  /*Наименования секций, визуально отсутсвуют на макете, создавались для удобства в разметке*/
+  display: none;
+}
+
+/*Стилизация списков:*/
+.main-nav-list {
+  list-style: none;
+}
+.main-navigation {
+  list-style: none;
+}
+
+.about-list {
+  list-style: none;
+}
+
+.about-slider__switch {
+  list-style: none;
+}
+
+.about-list-second {
+  list-style: none;
+}
+
+.news-list {
+  list-style: none;
+}
+
+.offers-list {
+  list-style: none;
+}
+
+.footer-inner-list {
+  list-style: none;
+}
+
+.footer-nav-list {
+  list-style: none;
+}
+/*Задать изображениям серый задний фон*/
