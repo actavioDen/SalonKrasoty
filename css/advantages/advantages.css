@@ -1,0 +1,16 @@
+.advantages__desc-text {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.advantages__number{
+    font-size: 48px;
+    line-height: 72px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.advantages__number-bright{
+    font-size: 96px;
+    line-height: 144px;
+    color: var(--turquoise);
+}
