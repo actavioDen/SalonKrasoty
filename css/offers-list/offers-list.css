@@ -1,0 +1,8 @@
+.offers-list {
+    list-style: none;
+}
+
+.offers-list__title{
+    font-size: 18px;
+    line-height: 21.19px;
+  }

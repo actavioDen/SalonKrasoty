@@ -1,0 +1,16 @@
+.page-body {
+    width: 1920px;
+    min-height: 100%; /*Чтобы для страниц с любым объемом контента, подвал находился в самом низу*/
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+  }
+
+  .page-body__section-name{
+    /*Наименования секций, визуально отсутсвуют на макете, создавались для удобства в разметке*/
+    display: none;
+  }

@@ -1,0 +1,9 @@
+.about-slider__title {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+  }
+
+  .about-slider__switch {
+    list-style: none;
+  }

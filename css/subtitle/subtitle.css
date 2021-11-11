@@ -1,0 +1,14 @@
+.subtitle {
+    font-size: 18px;
+    line-height: 21.19px;
+}
+
+.subtitle__text{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.subtitle__text-bright{
+    font-size: 28px;
+    line-height: 42px;
+    color: #000;
+}
