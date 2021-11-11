@@ -376,6 +376,10 @@ template {
   display: none;
 }
 
+.about__wrapper{ /*обертка, чтобы сделать отступы - уши по бокам*/
+    width: 1295px;
+    margin: 0 auto;
+}
 .about-list {
     list-style: none;
 }
@@ -407,6 +411,11 @@ template {
     line-height: 144px;
     color: var(--turquoise);
 }
+
+.advantages__wrapper{ /*обертка, чтобы сделать отсупы-уши по бокам*/
+    width: 1295px;
+    margin: 0 auto;
+}
 .contacts-list{
     list-style: none;
 }
@@ -415,17 +424,31 @@ template {
     line-height: 72px;
     color:var(--turquoise);
 }
+
+.current-offers__wrapper{ /*обертка, чтобы сделать отступы-уши по бокам */
+    width: 1295px;
+    margin: 0 auto;
+}
+.footer__wrapper{ /*обертка, чтобы сделать отступы-уши по бокам */
+    width: 1295px;
+    margin: 0 auto;
+}
 .footer-inner-list {
     list-style: none;
 }
 .footer-nav-list {
     list-style: none;
 }
+.main-header__navigation {
+    width: 1295px;
+    margin: 0 auto;
+}
 .main-nav-list {
     list-style: none;
   }
-.main-navigation {
+.news__wrapper{ /*обертка, чтобы сделать отступы-уши по бокам */
     width: 1295px;
+    margin: 0 auto;
 }
 .news-list {
     list-style: none;
@@ -450,7 +473,7 @@ template {
     line-height: 21px;
   
     display: grid;
-    grid-template-rows: min-content 1fr min-content;
+    grid-template-rows: min-content 1fr min-content; /*шапка, блок контента и подвал*/
   }
 
   .page-body__section-name{

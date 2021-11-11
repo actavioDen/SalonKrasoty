@@ -3,3 +3,8 @@
     line-height: 72px;
     color:var(--turquoise);
 }
+
+.current-offers__wrapper{ /*обертка, чтобы сделать отступы-уши по бокам */
+    width: 1295px;
+    margin: 0 auto;
+}
