@@ -19,13 +19,21 @@
   --turquoise: #00868a;
   --lite-turquoise: #4fbfa5;
 }
+      /*Ситилизация основных блоков*/
+.page{ /*Чтобы для страниц с любым объемом контента, подвал находился в самом низу*/
+  height: 100%;
+}
 
 .page-body {
   width: 1920px;
+  min-height: 100%; /*Чтобы для страниц с любым объемом контента, подвал находился в самом низу*/
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
+
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
 }
 
 .about-slider__title {
@@ -81,15 +89,15 @@
   line-height: 42px;
   color: #000;
 }
+.main-navigation {
+  width: 1295px;
+}
 
 /*Стилизация списков:*/
 .main-nav-list {
   list-style: none;
 }
 .social-list{
-  list-style: none;
-}
-.main-navigation {
   list-style: none;
 }
 
