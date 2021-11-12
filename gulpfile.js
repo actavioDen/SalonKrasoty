@@ -11,7 +11,7 @@ function BrowserSync(){
 }
 
 function Csss(){
-  return src(['css/**/*.css', '!css/style.css'])    //'!css/style.css' - чтобы небыло зацикливания, не вотчить 'css/style.css'
+  return src(['css/normalize.css', 'css/all.css','css/**/*.css', '!css/style.css'])    //'!css/style.css' - чтобы небыло зацикливания, не вотчить 'css/style.css'
     .pipe(concat('style.css'))
     .pipe(dest('css/'))
     .pipe(browserSync.stream())
