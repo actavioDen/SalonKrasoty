@@ -1,4 +1,9 @@
-.about__wrapper{ /*обертка, чтобы сделать отступы - уши по бокам*/
-    width: 1295px;
-    margin: 0 auto;
+.about {
+  background: var(--lite-turquoise);
+}
+
+.about__wrapper {
+  /*обертка, чтобы сделать отступы - уши по бокам*/
+  width: 1295px;
+  margin: 0 auto;
 }
