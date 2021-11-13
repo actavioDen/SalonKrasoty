@@ -1,9 +1,22 @@
+.about-slider {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 24px;
+}
 .about-slider__title {
-    font-size: 48px;
-    line-height: 72px;
-    font-weight: 700;
-  }
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 700;
+}
 
-  .about-slider__switch {
-    list-style: none;
-  }
+.about-slider__switch {
+  list-style: none;
+}
+
+.about-slider__left {
+  grid-column: 1/6;
+}
+
+.about-slider__right {
+  grid-column: 6/13;
+}

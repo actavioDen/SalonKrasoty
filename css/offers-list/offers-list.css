@@ -1,8 +1,10 @@
 .offers-list {
-    list-style: none;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
 }
 
-.offers-list__title{
-    font-size: 18px;
-    line-height: 21.19px;
-  }
+.offers-list__title {
+  font-size: 18px;
+  line-height: 21.19px;
+}

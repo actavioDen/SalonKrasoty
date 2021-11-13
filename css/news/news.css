@@ -1,4 +1,16 @@
-.news__wrapper{ /*обертка, чтобы сделать отступы-уши по бокам */
-    width: 1295px;
-    margin: 0 auto;
+.news__wrapper {
+  /*обертка, чтобы сделать отступы-уши по бокам */
+  width: 1295px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 24px;
+}
+
+.news__left-section {
+  grid-column: 1/6;
+}
+
+.news__right-section {
+  grid-column: 6/13;
 }

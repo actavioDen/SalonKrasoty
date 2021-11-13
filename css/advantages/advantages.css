@@ -1,21 +1,34 @@
 .advantages__desc-text {
-    font-size: 30px;
-    line-height: 45px;
+  font-size: 30px;
+  line-height: 45px;
 }
 
-.advantages__number{
-    font-size: 48px;
-    line-height: 72px;
-    color: rgba(0, 0, 0, 0.3);
+.advantages__number {
+  font-size: 48px;
+  line-height: 72px;
+  color: rgba(0, 0, 0, 0.3);
 }
 
-.advantages__number-bright{
-    font-size: 96px;
-    line-height: 144px;
-    color: var(--turquoise);
+.advantages__number-bright {
+  font-size: 96px;
+  line-height: 144px;
+  color: var(--turquoise);
 }
 
-.advantages__wrapper{ /*обертка, чтобы сделать отсупы-уши по бокам*/
-    width: 1295px;
-    margin: 0 auto;
+.advantages__wrapper {
+  /*обертка, чтобы сделать отсупы-уши по бокам*/
+  width: 1295px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 24px;
+}
+
+.advantages__left {
+  grid-column: 1/6;
+}
+
+.advantages__right {
+  grid-column: 6/13;
+  padding-left: 86px;
 }
