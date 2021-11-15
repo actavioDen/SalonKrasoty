@@ -10,7 +10,9 @@
 }
 
 .about-slider__switch {
+  padding: 0;
   list-style: none;
+  
 }
 
 .about-slider__left {

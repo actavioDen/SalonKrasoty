@@ -1,15 +1,19 @@
 .footer__wrapper {
   /*обертка, чтобы сделать отступы-уши по бокам */
-  width: 1295px;
   margin: 0 auto;
+  width: 1295px;
+  
 }
 
 .footer__inner-list {
+  padding: 0;
   list-style: none;
 }
 
 .footer__contacts-list {
+  padding: 0;
   list-style: none;
+  
 }
 
 .footer__up {
