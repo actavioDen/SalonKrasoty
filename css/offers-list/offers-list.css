@@ -3,10 +3,44 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(4, 3fr);
+}
 
+.offers-list__item {
+  width: 306px;
+  height: 343px;
 }
 
 .offers-list__title {
+  display: inline-block;
+  margin: 30px 0 0 30px;
+  padding: 10px 15px;
+
   font-size: 18px;
   line-height: 21.19px;
+  color: #fff;
+  background: var(--lite-turquoise);
+}
+
+.offers-list__item-top {
+  width: 306px;
+  height: 230px;
+  background-color: #ccd;
+}
+
+.offers-list__item-bottom {
+  width: 306px;
+  height: 113px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--turquoise);
+}
+
+.offers-list__subtitle {
+  width: min-content;
+  margin: 0;
+  display: inline;
+  font-size: 21px;
+  line-height: 31.5px;
+  color: #fff;
 }

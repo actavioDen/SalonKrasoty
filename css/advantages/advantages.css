@@ -32,3 +32,13 @@
   grid-column: 6/13;
   padding-left: 86px;
 }
+
+.advantages__img {
+  width: 526px;
+  height: 230px;
+}
+
+.advantages__img-document {
+  width: 306px;
+  height: 400px;
+}
