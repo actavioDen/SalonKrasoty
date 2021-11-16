@@ -36,9 +36,11 @@
 .advantages__img {
   width: 526px;
   height: 230px;
+  background-color: #ccc;
 }
 
 .advantages__img-document {
   width: 306px;
   height: 400px;
+  background-color: #ccc;
 }
