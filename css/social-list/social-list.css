@@ -1,5 +1,32 @@
-.social-list{
-    padding: 0;
-    list-style: none;
-    
+.social-list {
+  width: 620px;
+  padding: 0;
+
+  display: flex;
+  justify-content: spa;
+  list-style: none;
+}
+
+.social-list__vk {
+  width: 24px;
+  height: 24px;
+  background: url("../../img/social/vk.svg");
+}
+
+.social-list__youtube {
+  width: 24px;
+  height: 24px;
+  background: url("../../img/social/youtube.svg");
+}
+
+.social-list__facebook {
+  width: 24px;
+  height: 24px;
+  background: url("../../img/social/facebook.svg");
+}
+
+.social-list__instagramm {
+  width: 24px;
+  height: 24px;
+  background: url("../../img/social/instagram.svg");
 }
