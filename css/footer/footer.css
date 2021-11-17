@@ -1,8 +1,7 @@
 .footer__wrapper {
   /*обертка, чтобы сделать отступы-уши по бокам */
   margin: 0 auto;
-  width: 1295px;
-  
+  width: 1295px;  
 }
 
 .footer__inner-list {
@@ -25,4 +24,18 @@
 .footer__inner-list {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
+}
+
+.footer__down{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__copiright{
+  width: 325px;
+}
+
+.footer__confident-link{
+  w325px
 }

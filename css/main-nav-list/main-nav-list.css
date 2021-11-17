@@ -1,4 +1,25 @@
+.main-header__navigation{
+  width: 1295px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-nav-list {
+    width: 645px;
     padding: 0;
-    list-style: none;    
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style: none;
   }
+
+  .main-nav-list__link-img{
+    width: 145px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

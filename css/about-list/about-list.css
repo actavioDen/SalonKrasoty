@@ -1,5 +1,12 @@
 .about-list {
   padding: 0;
-  list-style: none;
-  
+  list-style: none;  
+}
+
+.about-list__button{
+  font-size: 18px;
+  line-height: 21.19px;
+  background: #fff;
+  color:#000;
+  padding: 15px 10px;
 }

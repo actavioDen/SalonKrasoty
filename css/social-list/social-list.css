@@ -1,9 +1,9 @@
 .social-list {
-  width: 660px;
+  width: 650px;
   padding: 0;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   
   list-style: none;
