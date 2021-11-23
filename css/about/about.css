@@ -6,6 +6,7 @@
   /*обертка, чтобы сделать отступы - уши по бокам*/
   width: 1295px;
   margin: 0 auto;
+
   border: solid 1px transparent; /*Отмена схлопывания margin*/
 }
 

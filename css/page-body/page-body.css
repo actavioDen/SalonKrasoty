@@ -1,6 +1,9 @@
 .page-body {
   width: 1920px;
   min-height: 100%; /*Чтобы для страниц с любым объемом контента, подвал находился в самом низу*/
+
+  margin: 0 auto;
+
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 14px;

@@ -26,9 +26,12 @@
 .link--size-xxl {
   font-size: 21px;
   line-height: 31.5px;
-  font-weight: 700;
 }
 
 .link--color-white {
   color: #fff;
+}
+
+.link--bold {
+  font-weight: 700;
 }

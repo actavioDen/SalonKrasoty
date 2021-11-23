@@ -1,5 +1,23 @@
 .about-list-second {
-    padding: 0;
-    list-style: none;
-    
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+
+  list-style: none;
+}
+
+.about-list-second__item {
+  padding: 24px;
+
+  background: var(--turquoise);
+
+  text-align: center;
+}
+
+.about-list-second__item:hover {
+  background: var(--lite-turquoise);
+  outline: var(--turquoise) solid 1px;
+  outline-offset: -1px;
 }

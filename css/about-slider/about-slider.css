@@ -4,14 +4,23 @@
   grid-gap: 24px;
 }
 .about-slider__title {
+  margin-top: 135px;
+  margin-bottom: 0;
   font-size: 48px;
   line-height: 72px;
   font-weight: 700;
+  color: #fff;
+}
+
+.about-slider__button {
+  margin-top: 45px;
 }
 
 .about-slider__switch {
+  margin: 0 36px 0 0;
   padding: 0;
   display: flex;
+  justify-content: right;
   list-style: none;
 }
 
@@ -19,6 +28,12 @@
   grid-column: 1/6;
 }
 
+.about-slider__text {
+  margin: 0;
+  margin-top: 43px;
+
+  color: #fff;
+}
 .about-slider__right {
   width: 746px;
   height: 533px;
