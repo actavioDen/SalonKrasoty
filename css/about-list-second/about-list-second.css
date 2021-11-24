@@ -18,6 +18,4 @@
 
 .about-list-second__item:hover {
   background: var(--lite-turquoise);
-  outline: var(--turquoise) solid 1px;
-  outline-offset: -1px;
 }

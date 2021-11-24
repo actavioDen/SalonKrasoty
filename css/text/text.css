@@ -1,0 +1,13 @@
+.text--color-gray{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.text--type-bright{
+    font-size: 28px;
+    line-height: 42px;
+    color: #000;
+}
+
+.text--color-white{
+    color: #fff;
+}

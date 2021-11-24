@@ -26,11 +26,13 @@
 
 .advantages__left {
   grid-column: 1/6;
+  background: var(--turquoise);
 }
 
 .advantages__right {
-  grid-column: 6/13;
   padding-left: 86px;
+  grid-column: 6/13;
+  
 }
 
 .advantages__img {

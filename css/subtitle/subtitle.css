@@ -1,14 +1,20 @@
 .subtitle {
+    display: inline-block;
+    padding: 10px 15px;
     font-size: 18px;
     line-height: 21.19px;
+    font-weight: 500;
+
+    color: #fff;
 }
 
-.subtitle__text{
-    color: rgba(0, 0, 0, 0.3);
+.subtitle--turquoise{
+    background: var(--turquoise);
 }
 
-.subtitle__text-bright{
-    font-size: 28px;
-    line-height: 42px;
-    color: #000;
+.subtitle--lite-turquoise{
+    background: var(--lite-turquoise);
 }
+
+
+
