@@ -1,0 +1,24 @@
+.advantages-left {
+    grid-column: 1/6;
+    background: var(--turquoise);
+}
+
+.advantages-left__subtitle{
+    margin-left: 40px;
+}
+
+.advantages-left__desc-text {
+    margin-left: 40px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.advantages-left__arrow{
+    margin-left: 40px;
+}
+
+.advantages-left__img {
+    width: 526px;
+    height: 230px;
+    background-color: #ccc;
+}
