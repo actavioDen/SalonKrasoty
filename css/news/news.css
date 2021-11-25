@@ -1,3 +1,6 @@
+.news{
+  margin-top: 80px;
+}
 .news__wrapper {
   /*обертка, чтобы сделать отступы-уши по бокам */
   width: 1295px;
@@ -7,10 +10,17 @@
   grid-gap: 24px;
 }
 
-.news__left-section {
-  grid-column: 1/6;
+.news__subtitile{
+  margin: 35px 0 0 40px;
 }
 
-.news__right-section {
-  grid-column: 6/13;
+.news-list{
+  margin: 0 40px;;
+}
+
+.news-list__item{
+  padding: 35px 0;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
 }

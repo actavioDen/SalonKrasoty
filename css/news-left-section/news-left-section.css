@@ -1,0 +1,10 @@
+
+.news-left-section {
+    grid-column: 1/6;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background: var(--lite-turquoise);
+}
