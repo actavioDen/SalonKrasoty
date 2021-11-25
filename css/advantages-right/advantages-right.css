@@ -1,5 +1,5 @@
 .advantages-right {
-    padding-left: 134px;
+    padding-left: 135px;
     grid-column: 6/13;
 
     display: grid;
@@ -51,7 +51,7 @@
 .advantages-right__elem4 {
     padding: 0;
     margin: 0;
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 4/5;
     z-index: 1;
 
