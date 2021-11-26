@@ -11,21 +11,36 @@
   height: 343px;
 }
 
-.offers-list__title {
-  display: inline-block;
-  margin: 30px 0 0 30px;
-  padding: 10px 15px;
-
-  font-size: 18px;
-  line-height: 21.19px;
-  color: #fff;
-  background: var(--lite-turquoise);
-}
-
 .offers-list__item-top {
   width: 306px;
   height: 230px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(min-content, max-content), 1fr;
   background-color: #ccd;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.offers-list-title-wrap {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  z-index: 1;
+}
+
+.offers-list__title {
+  display: inline-block;
+  padding: 0;
+  margin: 30px 0 0 30px;
+}
+
+.offers-list__img {
+  width: 306px;
+  height: 230px;
+
+  grid-row: 1/3;
+  grid-column: 1/2;
 }
 
 .offers-list__item-bottom {
