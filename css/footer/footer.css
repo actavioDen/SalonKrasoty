@@ -27,6 +27,7 @@
 }
 
 .footer__down{
+  margin-top: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
