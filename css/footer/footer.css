@@ -1,7 +1,7 @@
 .footer__wrapper {
   /*обертка, чтобы сделать отступы-уши по бокам */
   margin: 0 auto;
-  width: 1295px;  
+  width: 1295px;
 }
 
 .footer__inner-list {
@@ -12,7 +12,6 @@
 .footer__contacts-list {
   padding: 0;
   list-style: none;
-  
 }
 
 .footer__up {
@@ -26,17 +25,19 @@
   grid-template-columns: repeat(3, 2fr);
 }
 
-.footer__down{
+.footer__down {
   margin-top: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.footer__copiright{
+.footer__copiright {
   width: 325px;
+  font-size: 12px;
+  line-height: 18px;
 }
 
-.footer__confident-link{
-  w325px
+.footer__confident-link {
+  width: 325px;
 }

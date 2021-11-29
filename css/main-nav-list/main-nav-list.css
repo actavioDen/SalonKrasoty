@@ -1,25 +1,19 @@
-.main-header__navigation{
-  width: 1295px;
-  margin:0 auto;
+.main-nav-list {
+  width: 100%;
+  padding: 0;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  list-style: none;
 }
 
-.main-nav-list {
-    width: 645px;
-    padding: 0;
+.main-nav-list__link-img {
+  width: 145px;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    list-style: none;
-  }
-
-  .main-nav-list__link-img{
-    width: 145px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
