@@ -3,6 +3,11 @@
 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   list-style: none;
+}
+
+.about-list__item {
+  margin-bottom: 1px;
 }

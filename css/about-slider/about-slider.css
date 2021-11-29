@@ -4,7 +4,7 @@
   grid-gap: 24px;
 }
 .about-slider__title {
-  margin-top: 135px;
+  margin-top: 100px;
   margin-bottom: 0;
   font-size: 48px;
   line-height: 72px;
@@ -14,6 +14,10 @@
 
 .about-slider__button {
   margin-top: 45px;
+}
+
+.about-slider__button-wrap {
+  display: inline-block;
 }
 
 .about-slider__switch {
@@ -26,6 +30,9 @@
 
 .about-slider__left {
   grid-column: 1/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .about-slider__text {
