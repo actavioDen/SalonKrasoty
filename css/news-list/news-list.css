@@ -1,5 +1,12 @@
 .news-list {
     padding: 0;
+    margin: 0 40px;
     list-style: none;
     
+}
+.news-list__item {
+    padding: 35px 0;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
 }

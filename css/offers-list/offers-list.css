@@ -4,11 +4,13 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .offers-list__item {
   width: 306px;
   height: 343px;
+  margin-bottom: 20px;
 }
 
 .offers-list__item-top {
@@ -50,6 +52,8 @@
   justify-content: space-around;
   align-items: center;
   background: var(--turquoise);
+  
+  
 }
 
 .offers-list__subtitle {
@@ -59,4 +63,9 @@
   font-size: 21px;
   line-height: 31.5px;
   color: #fff;
+
+  display: -webkit-box;   /*4 свойства - защитят заголовок от переполнения. */
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
 }
