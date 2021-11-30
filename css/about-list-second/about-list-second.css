@@ -2,14 +2,19 @@
   padding: 0;
   margin: 0;
 
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-
+  /*display: grid;
+  grid-template-columns: 2fr 1fr 1fr;*/
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  background: var(--turquoise);
   list-style: none;
 }
 
 .about-list-second__item {
   padding: 24px;
+  min-width: 300px;
 
   background: var(--turquoise);
 
