@@ -1,6 +1,6 @@
 .button{
     background: var(--turquoise);
-    color:#fff;
+    color: var(--white);
     border: none;
 }
 
@@ -21,7 +21,7 @@
 
 .button--white{
     padding: 10px 15px;
-    background: #fff;
-    color: #000;
+    background: var(--white);
+    color: var(--black);
     text-transform: none;
 }
