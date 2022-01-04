@@ -62,7 +62,7 @@
   display: inline;
   font-size: 21px;
   line-height: 31.5px;
-  color: #fff;
+  color: var(--white);
 
   display: -webkit-box;   /*4 свойства - защитят заголовок от переполнения. */
   -webkit-line-clamp: 3;

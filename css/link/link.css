@@ -1,5 +1,5 @@
 .link {
-  color: #000;
+  color: var(--black);
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .link--color-white {
-  color: #fff;
+  color: var(--white);
 }
 
 .link--bold {

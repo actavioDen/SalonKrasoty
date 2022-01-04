@@ -5,9 +5,9 @@
 .text--type-bright{
     font-size: 28px;
     line-height: 42px;
-    color: #000;
+    color: var(--black);
 }
 
 .text--color-white{
-    color: #fff;
+    color: var(--white);
 }
