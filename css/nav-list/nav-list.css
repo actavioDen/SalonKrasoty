@@ -1,4 +1,4 @@
-.main-nav-list {
+.nav-list {
   width: 100%;
   padding: 0;
 
@@ -10,7 +10,7 @@
   list-style: none;
 }
 
-.main-nav-list__link-img {
+.nav-list__link-img {
   width: 145px;
 
   display: flex;

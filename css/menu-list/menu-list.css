@@ -1,4 +1,4 @@
-.about-list {
+.menu-list {
   padding: 0;
 
   display: flex;
@@ -8,6 +8,6 @@
   list-style: none;
 }
 
-.about-list__item {
+.menu-list__item {
   margin-bottom: 1px;
 }

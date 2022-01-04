@@ -1,8 +1,14 @@
-.about {
+.header__up {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header__down {
   background: var(--lite-turquoise);
 }
 
-.about__wrapper {
+.header__wrapper {
   /*обертка, чтобы сделать отступы - уши по бокам*/
   width: 1295px;
   margin: 0 auto;
